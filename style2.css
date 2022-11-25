@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainSec {
+  height: 100vh;
+  width: 100%;
+  background-image: url(bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  float: none;
+}
+
+.container {
+  padding: 0px 215px;
+}
+
+.boxSec{
+  height: auto;
+  width: 100%;
+  padding: 30px 50px;
+  background-color: rgba(0, 0, 0, 0.586);
+  border-radius: 15px;
+}
+
+.boxSec h2{
+  color: #00DD00;
+  text-align: center;
+
+}
+
+.mainSec img {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+}
+
+
+.img logo {
+  width: 175px;
+  padding: 30px 20px;
+  border-radius: 15px;
+  height: auto;
+
+}
+
+
+.greenSec{
+    background-color: #00DD00;
+    padding: 8px 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav {
+    width: auto;
+    padding: 1px 5px;
+    border: 1px;
+}
+
+.btn {
+  text-align: center;
+  width: auto;
+  padding: 2px 5px;
+  border: 1px;
+  color: white;
+  display: inline-block;
+}
+
+p {
+ color: #ffffff;
+}
+ label{
+   color: #ffffff;
+
+ }
+ .firstColor{
+   height: 35px;
+   width: 30%;
+   background-color: #F5B453;
+   border-radius: 5px;
+ }
+ .firstOne{
+     color: #fff;
+ }
+ .firstOne p{
+     margin: 0;
+     padding: 0;
+     font-size: 13px;
+     }
+     /* second one  */
+     .secondOne{
+         color: #fff;
+         margin-top: 20px;
+     }
+     .secondOne p{
+         margin: 0;
+         padding: 0;
+         font-size: 13px;
+     }
+     .secondOne .firstColor{
+         height: 35px;
+         width: 60%;
+         background-color: #1EC31E;
+         border-radius: 5px;
+     }
+
+     /* third one  */
+     .thirdOne{
+         color: #fff;
+         margin-top: 20px;
+     }
+     .thirdOne p{
+         margin: 0;
+         padding: 0;
+         font-size: 13px;
+     }
+     .thirdOne .firstColor{
+         height: 35px;
+         width: 20%;
+         background-color: #BE4141;
+         border-radius: 5px;
+     }
